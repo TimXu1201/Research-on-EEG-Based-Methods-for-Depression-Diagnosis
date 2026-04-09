@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Temporary files
+~$*
+~WRL*.tmp
+
+# Dataset and generated intermediates
+*.fif
+*.npy
+*.npz
+*.zip
+TDBRAIN_participants_V2.xlsx
+
+# Private drafts and admin documents
+*.doc
+*.docx
+徐JY_学位论文声明页.*
+本科毕设-任务书 徐筠懿.doc
+基于脑电的抑郁症诊断研究-开题报告.doc
+徐筠懿 外文翻译.doc
+附件3：2025届本科毕业设计（论文）工作时间表.doc.doc
+毕设管理办法与相关文件/
+
+# Reference papers
+41551_2020_614_MOESM1_ESM.pdf
+A resting-state brain functional network study in MDD based on minimum spanning tree analysis and the hierarchical clustering.pdf
+A study of resting-state EEG biomarkers for depression recognition.pdf
+Graph Theory Analysis of Functional Connectivity in Major Depression Disorder With High-Density Resting State EEG Data.pdf
+Human Brain Mapping - 2017 - Schirrmeister - Deep learning with convolutional neural networks for EEG decoding and.pdf
+Identification of psychiatric disorder subtypes from functional connectivity patterns in resting-state electroencephalography.pdf
+Neurophysiological stratification of major depressive disorder by distinct trajectories.pdf
+NMH - 2023 - Alpha peak frequency-based Brainmarker-I as a method to stratify to pharmacotherapy and brain stimulation treatments in depression.pdf
+Predicting treatment response using EEG in major depressive disorder.pdf
+Resting-state EEG dynamic functional connectivity distinguishes non-psychotic major depression, psychotic major depression and schizophrenia.docx
+Resting-state EEG dynamic functional connectivity distinguishes non-psychotic major depression, psychotic major depression and schizophrenia.pdf
+Rethinking_CNN_Architecture_for_Enhancing_Decoding.pdf
+基于fMRI的孤独症辅助诊断算法研究.pdf
+基于脑电图的重度抑郁症脑连接异常模式及算法研究_李建秀.pdf
+
+# Legacy or exploratory scripts not used in the final thesis package
+training.py
+PSD_analysis.py
+cluster.py
+_11Topomap_analysis.py
