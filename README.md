@@ -1,4 +1,4 @@
-# EEG-Based MDD Diagnosis and Subtype Analysis
+# Research on EEG-Based Methods for Depression Diagnosis
 
 This repository contains the code and selected artifacts for my undergraduate thesis, which studies **EEG-based diagnosis of Major Depressive Disorder (MDD)** and **subtype discovery within the MDD cohort** using the **TDBRAIN** dataset.
 
@@ -34,8 +34,8 @@ The final conclusion is that **High Gamma** provides the strongest discriminativ
 - `3d_brain_network.png`
 - `montage.png`
 - `montage_64.png`
-- `基于脑电的抑郁症诊断方法研究 徐筠懿.pdf`
-- `11-徐筠懿-基于脑电的抑郁症诊断方法.pptx`
+- thesis PDF
+- thesis presentation slides
 
 ## Not Included
 
