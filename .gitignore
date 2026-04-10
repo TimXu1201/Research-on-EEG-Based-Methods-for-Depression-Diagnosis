@@ -12,6 +12,8 @@ __pycache__/
 *.npy
 *.npz
 *.zip
+training_shallow*.csv
+training_mshallow*.csv
 TDBRAIN_participants_V2.xlsx
 
 # Private drafts and admin documents

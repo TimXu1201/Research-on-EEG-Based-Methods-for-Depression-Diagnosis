@@ -21,10 +21,6 @@ The workflow combines:
   High-gamma clustering and subtype analysis workflow.
 - `visualization.ipynb`
   Result aggregation and figure generation.
-- `training_shallow *.csv`
-  Exported metrics for the ShallowConvNet experiments.
-- `training_mshallow *.csv`
-  Exported metrics for the M-ShallowConvNet experiments.
 - `brain_map_high_gamma.png`
 - `correlation_matrix.png`
 - `3d_brain_network.png`
@@ -54,6 +50,7 @@ This public version intentionally excludes:
 
 - raw TDBRAIN EEG data
 - locally generated `.fif` files
+- exported training-metrics `.csv` files generated from notebook runs
 - participant metadata spreadsheets
 - administrative documents
 - local reference-library files
@@ -62,6 +59,8 @@ This public version intentionally excludes:
 ## Environment Notes
 
 The notebooks and scripts were developed on Windows and still contain local absolute paths on `E:`. Update dataset and output paths before rerunning the full pipeline on another machine.
+
+`visualization.ipynb` expects band-wise metrics tables exported from the training notebooks. In this public version, those `.csv` files are omitted; rerun `training shallow.ipynb` and `training m-shallow.ipynb` to regenerate them locally before running the full visualization workflow.
 
 Typical dependencies include:
 
