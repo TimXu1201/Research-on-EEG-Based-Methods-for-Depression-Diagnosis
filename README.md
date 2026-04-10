@@ -1,6 +1,6 @@
 # Research on EEG-Based Methods for Depression Diagnosis
 
-This repository contains the public code and selected artifacts for an EEG-based depression-diagnosis study built on the **TDBRAIN** dataset.
+This repository contains the public code and manuscript for an EEG-based depression-diagnosis study built on the **TDBRAIN** dataset.
 
 The workflow combines:
 
@@ -21,11 +21,6 @@ The workflow combines:
   High-gamma clustering and subtype analysis workflow.
 - `visualization.ipynb`
   Result aggregation and figure generation.
-- `brain_map_high_gamma.png`
-- `correlation_matrix.png`
-- `3d_brain_network.png`
-- `montage.png`
-- `montage_64.png`
 - thesis manuscript PDF
 
 ## Method Summary
@@ -39,10 +34,10 @@ The workflow combines:
 
 ## Main Findings
 
-- M-ShallowConvNet performs better than the baseline ShallowConvNet in this study.
-- High Gamma is the strongest-performing band for MDD-versus-control classification.
-- The MDD cohort separates into two interpretable subtypes in the high-gamma setting.
-- The identified subtypes show distinct posterior and fronto-temporal connectivity patterns.
+- **M-ShallowConvNet** performs better than the baseline **ShallowConvNet** in this study.
+- **High Gamma** is the strongest-performing band for **MDD-versus-control classification**.
+- The **MDD cohort** separates into **two interpretable subtypes** in the high-gamma setting.
+- The identified subtypes show **distinct posterior and fronto-temporal connectivity patterns**.
 
 ## Public Scope
 

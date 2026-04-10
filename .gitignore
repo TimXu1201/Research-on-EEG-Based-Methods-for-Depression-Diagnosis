@@ -14,6 +14,11 @@ __pycache__/
 *.zip
 training_shallow*.csv
 training_mshallow*.csv
+brain_map_high_gamma.png
+correlation_matrix.png
+3d_brain_network.png
+montage.png
+montage_64.png
 TDBRAIN_participants_V2.xlsx
 
 # Private drafts and admin documents
